@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/CubeReact/static/css/main.0d9602c5.chunk.css",
+    "main.js": "/CubeReact/static/js/main.51e77c88.chunk.js",
+    "main.js.map": "/CubeReact/static/js/main.51e77c88.chunk.js.map",
+    "runtime-main.js": "/CubeReact/static/js/runtime-main.31d03634.js",
+    "runtime-main.js.map": "/CubeReact/static/js/runtime-main.31d03634.js.map",
+    "static/js/2.a23f6c47.chunk.js": "/CubeReact/static/js/2.a23f6c47.chunk.js",
+    "static/js/2.a23f6c47.chunk.js.map": "/CubeReact/static/js/2.a23f6c47.chunk.js.map",
+    "index.html": "/CubeReact/index.html",
+    "static/css/main.0d9602c5.chunk.css.map": "/CubeReact/static/css/main.0d9602c5.chunk.css.map",
+    "static/js/2.a23f6c47.chunk.js.LICENSE.txt": "/CubeReact/static/js/2.a23f6c47.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31d03634.js",
+    "static/js/2.a23f6c47.chunk.js",
+    "static/css/main.0d9602c5.chunk.css",
+    "static/js/main.51e77c88.chunk.js"
+  ]
+}
