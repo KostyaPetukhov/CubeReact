@@ -1,0 +1,54 @@
+.addButton {
+	width: 35px;
+	height: 35px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #f3a500;
+	color: white;
+	border: none;
+	position: relative;
+}
+
+.addRowsButton {
+	margin: 1px 3px;
+	position: relative;
+}
+
+.addColsButton {
+	margin: 3px 1px;
+	position: relative;
+}
+
+.deleteButton {
+	width: 35px;
+	height: 35px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #b20000;
+	color: white;
+	border: none;
+}
+
+.deleteRowsButton {
+	position: relative;
+	margin: 2px 1px;
+	transition-duration: 0.5s;
+	visibility: hidden;
+}
+
+.deleteColsButton {
+	position: relative;
+	margin: 1px 2px;
+	transition-duration: 0.5s;
+	visibility: hidden;
+}
+
+.addButton:hover {
+	background-color: #f6c052;
+	cursor: pointer;
+}
+
+.deleteButton:hover {
+	background-color: #ca4c49;
+	cursor: pointer;
+}

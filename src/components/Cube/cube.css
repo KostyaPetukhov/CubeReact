@@ -1,0 +1,30 @@
+body {
+	display: flex;
+}
+
+#root {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	margin: 15px 0 0 20px;
+}
+
+.middleContent {
+	display: flex;
+}
+
+.deleteCol {
+	margin-left: 36px;
+}
+
+.addRow {
+	margin-left: 36px;
+}
+
+table {
+	border: 1px double #48aae6;
+}
