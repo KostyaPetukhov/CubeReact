@@ -28,20 +28,28 @@ const Cube = () => {
 	};
 
 	const deleteRows = () => {
-		const arr = rows.concat();
-		arr.splice(currentRow, 1);
-		setRows(arr);
-		if (arr.length === currentRow) {
-			deleteRowsButton.style.top = `${(currentRow - 1) * 38}px`;
+		if (rows.length > 1) {
+			const arr = rows.concat();
+			arr.splice(currentRow, 1);
+			setRows(arr);
+			if (arr.length === currentRow) {
+				deleteRowsButton.style.top = `${(currentRow - 1) * 38}px`;
+			}
+		} else {
+			deleteRowsButton.style.visibility = 'hidden';
 		}
 	};
 
 	const deleteCols = () => {
-		const arr = cols.concat();
-		arr.splice(currentRow, 1);
-		setCols(arr);
-		if (arr.length === currentCol) {
-			deleteColsButton.style.left = `${(currentCol - 1) * 38}px`;
+		if (cols.length > 1) {
+			const arr = cols.concat();
+			arr.splice(currentRow, 1);
+			setCols(arr);
+			if (arr.length === currentCol) {
+				deleteColsButton.style.left = `${(currentCol - 1) * 38}px`;
+			}
+		} else {
+			deleteColsButton.style.visibility = 'hidden';
 		}
 	};
 
@@ -50,7 +58,6 @@ const Cube = () => {
 			if (rows.length > 1) {
 				deleteRowsButton.style.visibility = 'visible';
 			}
-
 			if (cols.length > 1) {
 				deleteColsButton.style.visibility = 'visible';
 			}
